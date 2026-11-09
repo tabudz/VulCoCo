@@ -1,15 +1,111 @@
-CVE-2025-1695​
-CVE-2025-1744​
-CVE-2025-1864​
-CVE-2025-1866​
-CVE-2025-1867​
-CVE-2025-4637​
-CVE-2025-4638​
-CVE-2025-4639​
-CVE-2025-4640​
-CVE-2025-4641​
-CVE-2025-52935
-CVE-2025-52936
-CVE-2025-52937
-CVE-2025-52938
-CVE-2025-52939
+# CVEs resulting from VulCoCo detections
+
+Each CVE below was assigned to a project in which VulCoCo found a clone of a known vulnerability; the fix was submitted by us as a pull request
+(or reported privately when the project asked for it) and accepted by the maintainers. All entries were checked against the official CVE List.
+
+Total: 102 CVEs.
+
+| # | CVE | Affected project | CWE | Language | Fix (PR / commit / advisory) | Source vulnerability |
+|---|---|---|---|---|---|---|
+| 1 | [CVE-2025-1695](https://www.cve.org/CVERecord?id=CVE-2025-1695) | F5/NGINX Unit | CWE-835 | C | private report | – |
+| 2 | [CVE-2025-1744](https://www.cve.org/CVERecord?id=CVE-2025-1744) | radareorg/radare2 | CWE-787 | C/C++ | https://github.com/radareorg/radare2/pull/23969 | CVE-2022-37434 |
+| 3 | [CVE-2025-1864](https://www.cve.org/CVERecord?id=CVE-2025-1864) | radareorg/radare2 | CWE-119 | C/C++ | https://github.com/radareorg/radare2/pull/23981 | cve-2015-8865 |
+| 4 | [CVE-2025-1866](https://www.cve.org/CVERecord?id=CVE-2025-1866) | warmcat/libwebsockets | CWE-119 | C | private report | – |
+| 5 | [CVE-2025-1867](https://www.cve.org/CVERecord?id=CVE-2025-1867) | ithewei/libhv | CWE-444 | C/C++ | https://github.com/ithewei/libhv/pull/689 | CVE-2020-8287 |
+| 6 | [CVE-2025-4637](https://www.cve.org/CVERecord?id=CVE-2025-4637) | davisking/dlib | CWE-369 | C/C++ | https://github.com/davisking/dlib/pull/3058 | CVE-2018-11212 |
+| 7 | [CVE-2025-4638](https://www.cve.org/CVERecord?id=CVE-2025-4638) | PointCloudLibrary/pcl | CWE-119 | C/C++ | https://github.com/PointCloudLibrary/pcl/pull/6245 | CVE-2016-9840 |
+| 8 | [CVE-2025-4639](https://www.cve.org/CVERecord?id=CVE-2025-4639) | Peergos/Peergos | CWE-611 | Java | https://github.com/Peergos/Peergos/pull/1267 | CVE-2007-5461 |
+| 9 | [CVE-2025-4640](https://www.cve.org/CVERecord?id=CVE-2025-4640) | PointCloudLibrary/pcl | CWE-787 | C/C++ | https://github.com/PointCloudLibrary/pcl/pull/6246 | CVE-2022-37434 |
+| 10 | [CVE-2025-4641](https://www.cve.org/CVERecord?id=CVE-2025-4641) | bonigarcia/webdrivermanager | CWE-611 | Java | https://github.com/bonigarcia/webdrivermanager/pull/1458 | CWE-611 |
+| 11 | [CVE-2025-14306](https://www.cve.org/CVERecord?id=CVE-2025-14306) | Robocode Project/Robocode | CWE-22 | Java | https://github.com/robo-code/robocode/pull/67 | CVE-2022-2432 |
+| 12 | [CVE-2025-14307](https://www.cve.org/CVERecord?id=CVE-2025-14307) | Robocode Project/Robocode | CWE-377 | Java | https://github.com/robo-code/robocode/pull/68 | CVE-2022-21540 |
+| 13 | [CVE-2025-14308](https://www.cve.org/CVERecord?id=CVE-2025-14308) | Robocode Project/Robocode | CWE-190 | Java | https://github.com/robo-code/robocode/pull/70 | CVE-2020-9488 |
+| 14 | [CVE-2025-14309](https://www.cve.org/CVERecord?id=CVE-2025-14309) | ravynsoft/ravynos | CWE-476 | C/C++ | https://github.com/ravynsoft/ravynos/pull/502 | CVE-2021-36143 |
+| 15 | [CVE-2025-14310](https://www.cve.org/CVERecord?id=CVE-2025-14310) | rethinkdb/rethinkdb | CWE-120 | C/C++ | https://github.com/rethinkdb/rethinkdb/pull/7163 | CVE-2016-4303 |
+| 16 | [CVE-2025-14311](https://www.cve.org/CVERecord?id=CVE-2025-14311) | JMRI/JMRI | CWE-22 | Java | https://github.com/JMRI/JMRI/pull/14340 | CWE-22 |
+| 17 | [CVE-2025-48382](https://www.cve.org/CVERecord?id=CVE-2025-48382) | codelibs/fess | CWE-732 | Java | https://github.com/codelibs/fess/commit/25b2009 | – |
+| 18 | [CVE-2025-52935](https://www.cve.org/CVERecord?id=CVE-2025-52935) | dragonflydb/dragonfly | CWE-190 | C/C++ | https://github.com/dragonflydb/dragonfly/pull/4996 | CVE-2018-11219 |
+| 19 | [CVE-2025-52936](https://www.cve.org/CVERecord?id=CVE-2025-52936) | yrutschle/sslh | CWE-59 | C/C++ | https://github.com/yrutschle/sslh/pull/494 | CVE-2020-28935 |
+| 20 | [CVE-2025-52937](https://www.cve.org/CVERecord?id=CVE-2025-52937) | PointCloudLibrary/pcl | CWE-494 | C/C++ | https://github.com/PointCloudLibrary/pcl/pull/6275 | CVE-2016-9843 |
+| 21 | [CVE-2025-52938](https://www.cve.org/CVERecord?id=CVE-2025-52938) | dail8859/NotepadNext | CWE-125 | C/C++ | https://github.com/dail8859/NotepadNext/pull/756 | CVE-2022-28805 |
+| 22 | [CVE-2025-52939](https://www.cve.org/CVERecord?id=CVE-2025-52939) | dail8859/NotepadNext | CWE-787 | C/C++ | https://github.com/dail8859/NotepadNext/pull/757 | CVE-2022-33099 |
+| 23 | [CVE-2026-1464](https://www.cve.org/CVERecord?id=CVE-2026-1464) | MuntashirAkon/AppManager | CWE-190 | Java | https://github.com/MuntashirAkon/AppManager/pull/1598 | CWE-190 integer overflow |
+| 24 | [CVE-2026-1465](https://www.cve.org/CVERecord?id=CVE-2026-1465) | anyrtcIO-Community/anyRTC-RTMP-OpenSource | CWE-119 | C/C++ | https://github.com/anyrtcIO-Community/anyRTC-RTMP-OpenSource/pull/166 | CVE-2019-15296 |
+| 25 | [CVE-2026-4731](https://www.cve.org/CVERecord?id=CVE-2026-4731) | artraweditor/ART | CWE-190 | C++ | https://github.com/artraweditor/ART/pull/427 | cve-2018-5815 |
+| 26 | [CVE-2026-4732](https://www.cve.org/CVERecord?id=CVE-2026-4732) | tildearrow/furnace | CWE-125 | C | https://github.com/tildearrow/furnace/pull/2812 | CVE-2021-4156 |
+| 27 | [CVE-2026-4733](https://www.cve.org/CVERecord?id=CVE-2026-4733) | ixray-team/ixray-1.6-stcop | CWE-200 | C++ | https://github.com/ixray-team/ixray-1.6-stcop/pull/259 | cve-2015-3195 |
+| 28 | [CVE-2026-4734](https://www.cve.org/CVERecord?id=CVE-2026-4734) | yoyofr/modizer | CWE-119 | C | https://github.com/yoyofr/modizer/pull/141 | CVE-2017-1000257 |
+| 29 | [CVE-2026-4735](https://www.cve.org/CVERecord?id=CVE-2026-4735) | DTStack/chunjun | CWE-502 | Java | https://github.com/DTStack/chunjun/pull/1939 | CVE-2022-25647, CVE-2021-39144 |
+| 30 | [CVE-2026-4736](https://www.cve.org/CVERecord?id=CVE-2026-4736) | No-Chicken/Echo-Mate | CWE-229 | C | https://github.com/No-Chicken/Echo-Mate/pull/8 | CVE-2024-0607 |
+| 31 | [CVE-2026-4737](https://www.cve.org/CVERecord?id=CVE-2026-4737) | No-Chicken/Echo-Mate | CWE-416 | C | https://github.com/No-Chicken/Echo-Mate/pull/9 | CVE-2022-42703 |
+| 32 | [CVE-2026-4738](https://www.cve.org/CVERecord?id=CVE-2026-4738) | OSGeo/gdal | CWE-119 | C/C++ | https://github.com/OSGeo/gdal/pull/12244 | CVE-2016-9840 |
+| 33 | [CVE-2026-4739](https://www.cve.org/CVERecord?id=CVE-2026-4739) | InsightSoftwareConsortium/ITK | CWE-190 | C/C++ | https://github.com/InsightSoftwareConsortium/ITK/pull/5351 | CVE-2022-22822 to CVE-2022-22827 |
+| 34 | [CVE-2026-4741](https://www.cve.org/CVERecord?id=CVE-2026-4741) | TeamJCD/JoyConDroid | CWE-22 | Java | https://github.com/TeamJCD/JoyConDroid/pull/124 | CVE-2018-1002201 |
+| 35 | [CVE-2026-4742](https://www.cve.org/CVERecord?id=CVE-2026-4742) | visualfc/liteide | CWE-444 | C/C++ | https://github.com/visualfc/liteide/pull/1325 | CVE-2020-8287 |
+| 36 | [CVE-2026-4743](https://www.cve.org/CVERecord?id=CVE-2026-4743) | taurusxin/ncmdump | CWE-476 | C/C++ | https://github.com/taurusxin/ncmdump/pull/52 | CVE-2023-50471 |
+| 37 | [CVE-2026-4744](https://www.cve.org/CVERecord?id=CVE-2026-4744) | rizonesoft/Notepad3 | CWE-125 | C/C++ | https://github.com/rizonesoft/Notepad3/pull/5392 | CVE-2019-9023 |
+| 38 | [CVE-2026-4745](https://www.cve.org/CVERecord?id=CVE-2026-4745) | dendibakh/perf-ninja | CWE-94 | C/C++ | https://github.com/dendibakh/perf-ninja/pull/129 | CVE-2015-4335 |
+| 39 | [CVE-2026-4746](https://www.cve.org/CVERecord?id=CVE-2026-4746) | timeplus-io/proton | CWE-787 | C/C++ | https://github.com/timeplus-io/proton/pull/943 | CVE-2022-37434 |
+| 40 | [CVE-2026-4749](https://www.cve.org/CVERecord?id=CVE-2026-4749) | albfan/miraclecast | – | C | private report | – |
+| 41 | [CVE-2026-4750](https://www.cve.org/CVERecord?id=CVE-2026-4750) | fabiangreffrath/woof | CWE-125 | C | https://github.com/fabiangreffrath/woof/pull/2521 | CVE-2019-17544 |
+| 42 | [CVE-2026-4751](https://www.cve.org/CVERecord?id=CVE-2026-4751) | tmate-io/tmate | CWE-476 | C | https://github.com/tmate-io/tmate/pull/328 | CVE-2018-19387 |
+| 43 | [CVE-2026-4752](https://www.cve.org/CVERecord?id=CVE-2026-4752) | No-Chicken/Echo-Mate | CWE-416 | C | https://github.com/No-Chicken/Echo-Mate/pull/5 | CVE-2023-3863 |
+| 44 | [CVE-2026-4753](https://www.cve.org/CVERecord?id=CVE-2026-4753) | slajerek/RetroDebugger | CWE-125 | C | https://github.com/slajerek/RetroDebugger/pull/97 | CVE-2019-17544 |
+| 45 | [CVE-2026-4754](https://www.cve.org/CVERecord?id=CVE-2026-4754) | MolotovCherry/Android-ImageMagick7 | CWE-79 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/192 | CVE-2016-3709 |
+| 46 | [CVE-2026-4755](https://www.cve.org/CVERecord?id=CVE-2026-4755) | MolotovCherry/Android-ImageMagick7 | CWE-20 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/193 | CVE-2023-34152 |
+| 47 | [CVE-2026-4756](https://www.cve.org/CVERecord?id=CVE-2026-4756) | MolotovCherry/Android-ImageMagick7 | CWE-787 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/194 | CVE-2019-2201 |
+| 48 | [CVE-2026-24793](https://www.cve.org/CVERecord?id=CVE-2026-24793) | azerothcore/azerothcore-wotlk | CWE-120, CWE-787 | C/C++ | https://github.com/azerothcore/azerothcore-wotlk/pull/21599 | CVE-2022-37434 |
+| 49 | [CVE-2026-24794](https://www.cve.org/CVERecord?id=CVE-2026-24794) | CardboardPowered/cardboard | CWE-119 | Java | https://github.com/CardboardPowered/cardboard/pull/506 | CVE-2012-1776 |
+| 50 | [CVE-2026-24795](https://www.cve.org/CVERecord?id=CVE-2026-24795) | CloverHackyColor/CloverBootloader | CWE-787 | C/C++ | https://github.com/CloverHackyColor/CloverBootloader/pull/733 | CVE-2020-26159 |
+| 51 | [CVE-2026-24796](https://www.cve.org/CVERecord?id=CVE-2026-24796) | CloverHackyColor/CloverBootloader | CWE-125 | C/C++ | https://github.com/CloverHackyColor/CloverBootloader/pull/732 | CVE-2019-19204 |
+| 52 | [CVE-2026-24797](https://www.cve.org/CVERecord?id=CVE-2026-24797) | neka-nat/cupoch | CWE-787 | C/C++ | https://github.com/neka-nat/cupoch/pull/138 | – |
+| 53 | [CVE-2026-24798](https://www.cve.org/CVERecord?id=CVE-2026-24798) | GaijinEntertainment/DagorEngine | CWE-119 | C/C++ | https://github.com/GaijinEntertainment/DagorEngine/pull/136 | CVE-2017-1000494 |
+| 54 | [CVE-2026-24799](https://www.cve.org/CVERecord?id=CVE-2026-24799) | davisking/dlib | CWE-120, CWE-787 | C/C++ | https://github.com/davisking/dlib/pull/3063 | CVE-2022-37434 |
+| 55 | [CVE-2026-24800](https://www.cve.org/CVERecord?id=CVE-2026-24800) | tildearrow/furnace | CWE-120, CWE-787 | C/C++ | https://github.com/tildearrow/furnace/pull/2471 | CVE-2022-37434 |
+| 56 | [CVE-2026-24801](https://www.cve.org/CVERecord?id=CVE-2026-24801) | Ralim/IronOS | – | C/C++ | https://github.com/Ralim/IronOS/pull/2087 | CVE-2020-27209 |
+| 57 | [CVE-2026-24802](https://www.cve.org/CVERecord?id=CVE-2026-24802) | briandilley/jsonrpc4j | CWE-835 | Java | https://github.com/briandilley/jsonrpc4j/pull/333 | CVE-2018-11771 |
+| 58 | [CVE-2026-24803](https://www.cve.org/CVERecord?id=CVE-2026-24803) | coolsnowwolf/lede | CWE-835 | C/C++ | https://github.com/coolsnowwolf/lede/pull/13346 | CVE-2022-0778 |
+| 59 | [CVE-2026-24804](https://www.cve.org/CVERecord?id=CVE-2026-24804) | coolsnowwolf/lede | CWE-835 | C/C++ | https://github.com/coolsnowwolf/lede/pull/13368 | CVE-2022-0778 |
+| 60 | [CVE-2026-24805](https://www.cve.org/CVERecord?id=CVE-2026-24805) | visualfc/liteide | CWE-476 | C/C++ | https://github.com/visualfc/liteide/pull/1326 | CVE-2018-20786 |
+| 61 | [CVE-2026-24808](https://www.cve.org/CVERecord?id=CVE-2026-24808) | RawTherapee/RawTherapee | CWE-190 | C/C++ | https://github.com/RawTherapee/RawTherapee/pull/7359 | CVE-2018-5815 |
+| 62 | [CVE-2026-24809](https://www.cve.org/CVERecord?id=CVE-2026-24809) | praydog/REFramework | CWE-787 | C/C++ | https://github.com/praydog/REFramework/pull/1320 | CVE-2022-33099 |
+| 63 | [CVE-2026-24810](https://www.cve.org/CVERecord?id=CVE-2026-24810) | rethinkdb/rethinkdb | CWE-120 | C/C++ | https://github.com/rethinkdb/rethinkdb/pull/7163 | CVE-2016-4303 |
+| 64 | [CVE-2026-24811](https://www.cve.org/CVERecord?id=CVE-2026-24811) | root-project/root | CWE-20, CWE-119, CWE-125, CWE-787 | C/C++ | https://github.com/root-project/root/pull/18526 | CVE-2016-9841 |
+| 65 | [CVE-2026-24812](https://www.cve.org/CVERecord?id=CVE-2026-24812) | root-project/root | CWE-125 | C/C++ | https://github.com/root-project/root/pull/18527 | CVE-2016-9840 |
+| 66 | [CVE-2026-24813](https://www.cve.org/CVERecord?id=CVE-2026-24813) | abcz316/SKRoot-linuxKernelRoot | CWE-476 | C/C++ | https://github.com/abcz316/SKRoot-linuxKernelRoot/pull/116 | CVE-2023-50471 |
+| 67 | [CVE-2026-24814](https://www.cve.org/CVERecord?id=CVE-2026-24814) | swoole/swoole-src | CWE-190 | C/C++ | https://github.com/swoole/swoole-src/pull/5698 | CVE-2021-41099 |
+| 68 | [CVE-2026-24815](https://www.cve.org/CVERecord?id=CVE-2026-24815) | datavane/tis | CWE-434, CWE-502 | Java | https://github.com/datavane/tis/pull/443 | CVE-2021-39141 |
+| 69 | [CVE-2026-24816](https://www.cve.org/CVERecord?id=CVE-2026-24816) | datavane/tis | CWE-835 | Java | https://github.com/datavane/tis/pull/444 | CVE-2023-35933 |
+| 70 | [CVE-2026-24817](https://www.cve.org/CVERecord?id=CVE-2026-24817) | praydog/UEVR | CWE-787 | C/C++ | https://github.com/praydog/UEVR/pull/336 | cve-2022-33099 |
+| 71 | [CVE-2026-24818](https://www.cve.org/CVERecord?id=CVE-2026-24818) | praydog/UEVR | CWE-125 | C/C++ | https://github.com/praydog/UEVR/pull/337 | CVE-2022-28805 |
+| 72 | [CVE-2026-24819](https://www.cve.org/CVERecord?id=CVE-2026-24819) | foxinmy/weixin4j | CWE-1325 | Java | https://github.com/foxinmy/weixin4j/pull/229 | CVE-2020-1729 |
+| 73 | [CVE-2026-24820](https://www.cve.org/CVERecord?id=CVE-2026-24820) | turanszkij/WickedEngine | CWE-125 | C/C++ | https://github.com/turanszkij/WickedEngine/pull/1054 | CVE-2020-15889 |
+| 74 | [CVE-2026-24821](https://www.cve.org/CVERecord?id=CVE-2026-24821) | turanszkij/WickedEngine | CWE-125 | C/C++ | https://github.com/turanszkij/WickedEngine/pull/1095 | CVE-2022-28805 |
+| 75 | [CVE-2026-24822](https://www.cve.org/CVERecord?id=CVE-2026-24822) | ttttupup/wxhelper | CWE-122, CWE-787 | C/C++ | https://github.com/ttttupup/wxhelper/pull/515 | CVE-2023-2905 |
+| 76 | [CVE-2026-24823](https://www.cve.org/CVERecord?id=CVE-2026-24823) | FASTSHIFT/X-TRACK | CWE-120, CWE-787 | C/C++ | https://github.com/FASTSHIFT/X-TRACK/pull/120 | CVE-2022-37434 |
+| 77 | [CVE-2026-24824](https://www.cve.org/CVERecord?id=CVE-2026-24824) | yacy/yacy_search_server | CWE-79 | Java | https://github.com/yacy/yacy_search_server/pull/722 | XSS |
+| 78 | [CVE-2026-24825](https://www.cve.org/CVERecord?id=CVE-2026-24825) | ydb-platform/ydb | CWE-401 | C/C++ | https://github.com/ydb-platform/ydb/pull/17570 | CVE-2023-33460 |
+| 79 | [CVE-2026-24826](https://www.cve.org/CVERecord?id=CVE-2026-24826) | cadaver/turso3d | CWE-125, CWE-369, CWE-476, CWE-617, CWE-787, CWE-908 | C++ | https://github.com/cadaver/turso3d/pull/11 | cve-2019-13217 |
+| 80 | [CVE-2026-24827](https://www.cve.org/CVERecord?id=CVE-2026-24827) | gerstrong/Commander-Genius | CWE-787 | C++ | https://github.com/gerstrong/Commander-Genius/pull/379 | CVE-2022-33099 |
+| 81 | [CVE-2026-24828](https://www.cve.org/CVERecord?id=CVE-2026-24828) | Is-Daouda/is-Engine | CWE-401 | C | https://github.com/Is-Daouda/is-Engine/pull/6 | CVE-2022-4743 |
+| 82 | [CVE-2026-24829](https://www.cve.org/CVERecord?id=CVE-2026-24829) | Is-Daouda/is-Engine | CWE-122, CWE-787 | C | https://github.com/Is-Daouda/is-Engine/pull/7 | – |
+| 83 | [CVE-2026-24830](https://www.cve.org/CVERecord?id=CVE-2026-24830) | Ralim/IronOS | CWE-190 | C/C++ | https://github.com/Ralim/IronOS/pull/2083 | CVE-2021-31571 |
+| 84 | [CVE-2026-24831](https://www.cve.org/CVERecord?id=CVE-2026-24831) | ixray-team/ixray-1.6-stcop | CWE-835 | C++ | https://github.com/ixray-team/ixray-1.6-stcop/pull/248 | cve-2022-0778 |
+| 85 | [CVE-2026-24832](https://www.cve.org/CVERecord?id=CVE-2026-24832) | ixray-team/ixray-1.6-stcop | CWE-787 | C++ | https://github.com/ixray-team/ixray-1.6-stcop/pull/257 | CVE-2016-2182 |
+| 86 | [CVE-2026-24870](https://www.cve.org/CVERecord?id=CVE-2026-24870) | ixray-team/ixray-1.6-stcop | CWE-200 | C++ | https://github.com/ixray-team/ixray-1.6-stcop/pull/258 | CVE-2016-0701 |
+| 87 | [CVE-2026-24871](https://www.cve.org/CVERecord?id=CVE-2026-24871) | pilgrimage233/Minecraft-Rcon-Manage | CWE-94 | Java | https://github.com/pilgrimage233/Minecraft-Rcon-Manage/pull/13 | CWE-807, CWE-94 |
+| 88 | [CVE-2026-24872](https://www.cve.org/CVERecord?id=CVE-2026-24872) | ProjectSkyfire/SkyFire_548 | CWE-468 | C++ | https://github.com/cadaver/turso3d/pull/11 | cve-2019-13217 |
+| 89 | [CVE-2026-24873](https://www.cve.org/CVERecord?id=CVE-2026-24873) | Rinnegatamante/lpp-vita | CWE-125 | C | https://github.com/Rinnegatamante/lpp-vita/pull/82 | CVE-2022-43359 |
+| 90 | [CVE-2026-24874](https://www.cve.org/CVERecord?id=CVE-2026-24874) | themrdemonized/xray-monolith | CWE-843 | C | https://github.com/themrdemonized/xray-monolith/pull/399 | CVE-2019-19391 |
+| 91 | [CVE-2026-24875](https://www.cve.org/CVERecord?id=CVE-2026-24875) | yoyofr/modizer | CWE-190 | C | https://github.com/yoyofr/modizer/pull/133 | CVE-2016-2347 |
+| 92 | [CVE-2026-33847](https://www.cve.org/CVERecord?id=CVE-2026-33847) | linkingvision/rapidvms | CWE-119 | C++ | https://github.com/linkingvision/rapidvms/pull/98 | cve-2017-9991 |
+| 93 | [CVE-2026-33848](https://www.cve.org/CVERecord?id=CVE-2026-33848) | linkingvision/rapidvms | CWE-119 | C++ | https://github.com/linkingvision/rapidvms/pull/96 | cve-2017-9992 |
+| 94 | [CVE-2026-33849](https://www.cve.org/CVERecord?id=CVE-2026-33849) | linkingvision/rapidvms | CWE-119 | C++ | https://github.com/linkingvision/rapidvms/pull/96 | cve-2017-9992 |
+| 95 | [CVE-2026-33850](https://www.cve.org/CVERecord?id=CVE-2026-33850) | WujekFoliarz/DualSenseY-v2 | CWE-787 | C | https://github.com/WujekFoliarz/DualSenseY-v2/pull/66 | CVE-2021-28021 |
+| 96 | [CVE-2026-33851](https://www.cve.org/CVERecord?id=CVE-2026-33851) | joncampbell123/doslib | CWE-119 | C | https://github.com/joncampbell123/doslib/pull/65 | CVE-2019-15296 |
+| 97 | [CVE-2026-33852](https://www.cve.org/CVERecord?id=CVE-2026-33852) | MolotovCherry/Android-ImageMagick7 | CWE-401 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/191 | CVE-2019-19956 |
+| 98 | [CVE-2026-33853](https://www.cve.org/CVERecord?id=CVE-2026-33853) | MolotovCherry/Android-ImageMagick7 | CWE-476 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/183 | CVE-2020-35538 |
+| 99 | [CVE-2026-33854](https://www.cve.org/CVERecord?id=CVE-2026-33854) | MolotovCherry/Android-ImageMagick7 | CWE-787 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/184 | CVE-2023-4863 |
+| 100 | [CVE-2026-33855](https://www.cve.org/CVERecord?id=CVE-2026-33855) | MolotovCherry/Android-ImageMagick7 | CWE-190 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/187 | CVE-2018-16435 |
+| 101 | [CVE-2026-33856](https://www.cve.org/CVERecord?id=CVE-2026-33856) | MolotovCherry/Android-ImageMagick7 | CWE-401 | C | https://github.com/MolotovCherry/Android-ImageMagick7/pull/191 | CVE-2019-19956 |
+| 102 | [CVE-2026-49472](https://www.cve.org/CVERecord?id=CVE-2026-49472) | signalwire/freeswitch | CWE-116 | C | https://github.com/signalwire/freeswitch/security/advisories/GHSA-4jm3-xpcm-mwwq | CVE-2022-25235 |
